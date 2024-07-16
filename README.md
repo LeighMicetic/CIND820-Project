@@ -16,10 +16,7 @@ Data URL:  https://archive.ics.uci.edu/static/public/936/data.csv
 
 ### Methods
 
-*Exploratory data analytics will be performed to better understand the data
-*Classification algorithms will be used to predict the possiblity of healthy aging with healthy aging being determined by number of doctors visited.  Logistic Regression, Decision Tree and Random Forest will be used to build predication models
-*Models will be compared using Precision, Recall and Accuracy.
-*Cross-Validation will be used to test the models stability
+Exploratory data analytics will be performed to better understand the data.  Classification algorithms will be used to predict the possiblity of healthy aging with healthy aging being determined by number of doctors visited. Logistic Regression, Decision Tree and Random Forest will be used to build predication models.  The prediction models will be compared using Precision, Recall and Accuracy.  Cross-Validation will be used to test the models stability and timing of the algorithms will be used to assess efficiency.  
 
 ##### Literature Review
 
@@ -27,6 +24,5 @@ Review of academic works that explore the topic of healthy aging and the feature
 
 ###### Initial Results & Code
 
-*Initial Results indicated that neither of the three models were a good fit for prediction with the best fit having an accuracy score of 52%
-*Chi-Square was used to select variables to test the models again.
-*The models using the filtered variables had similar accuracy scores (50%, 49%, 51%).
+Initial Results indicated that neither of the three models were a good fit for prediction with the best fit having an accuracy score of 52%.  Chi-Square was used to select variables to test the models again.
+The models using the filtered variables had similar accuracy scores (50%, 49%, 51%).
