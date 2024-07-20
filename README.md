@@ -26,3 +26,11 @@ Review of academic works that explore the topic of healthy aging and the feature
 
 Initial Results indicated that neither of the three models were a good fit for prediction with the best fit having an accuracy score of 52%.  Chi-Square was used to select variables to test the models again.
 The models using the filtered variables had similar accuracy scores (50%, 49%, 51%).
+
+#######Limitations
+
+There were three limitations identified:  Sample Size, Use of a pre-processed Dataset, and Methodology. 
+
+########Conclusions
+
+While prediction models were able to be created they were not very accurate in predicting the number of doctors an individual vistis.  Future research may want to use a larger sample size to build their predicition models and may want to use other machine learning algorithms. 
