@@ -27,10 +27,10 @@ Review of academic works that explore the topic of healthy aging and the feature
 Initial Results indicated that neither of the three models were a good fit for prediction with the best fit having an accuracy score of 52%.  Chi-Square was used to select variables to test the models again.
 The models using the filtered variables had similar accuracy scores (50%, 49%, 51%).
 
-#######Limitations
+####### Limitations
 
 There were three limitations identified:  Sample Size, Use of a pre-processed Dataset, and Methodology. 
 
-########Conclusions
+######## Conclusions
 
 Logistic Regression was the best model to predict the number of doctors a person visits using all variables with 52% accuracy.  Using the selected features as determined by a chi-square analysis, Random Forest was the best model to predict the number of doctors a person visits with 51% accuracy.  These results indicate that the models are only slightly better than randomly guessing, so should not be relied upon as a prediction tool. 
