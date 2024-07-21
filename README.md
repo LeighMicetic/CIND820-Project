@@ -4,7 +4,8 @@ As the average life expectancy for the United States of America continues to inc
 
 ## Research Question
 
-Can the number of doctors an individual visits be predicted from questions related to sleeping habits, ratings of physical, dental and mental health, race and gender?
+1. Can the number of doctors an individual visits be predicted from questions related to sleeping habits, ratings of physical, dental and mental health, race and gender?
+2. Which prediction model is the best fit for predicting the number of doctors an individual visits:  Logistic Regression, Decision Tree or Random Forest?
 
 ### Dataset
 
@@ -13,8 +14,7 @@ The dataset that will be used for this project was taken from the National Poll 
 Repository URL: http://archive.ics.uci.edu/dataset/936/national+poll+on+healthy+aging+(npha)
 Data URL:  https://archive.ics.uci.edu/static/public/936/data.csv
 
-
-### Methods
+#### Methods
 
 Exploratory data analytics will be performed to better understand the data.  Classification algorithms will be used to predict the possiblity of healthy aging with healthy aging being determined by number of doctors visited. Logistic Regression, Decision Tree and Random Forest will be used to build predication models.  The prediction models will be compared using Precision, Recall and Accuracy.  Cross-Validation will be used to test the models stability and timing of the algorithms will be used to assess efficiency.  
 
@@ -33,4 +33,4 @@ There were three limitations identified:  Sample Size, Use of a pre-processed Da
 
 ########Conclusions
 
-While prediction models were able to be created they were not very accurate in predicting the number of doctors an individual vistis.  Future research may want to use a larger sample size to build their predicition models and may want to use other machine learning algorithms. 
+Logistic Regression was the best model to predict the number of doctors a person visits using all variables with 52% accuracy.  Using the selected features as determined by a chi-square analysis, Random Forest was the best model to predict the number of doctors a person visits with 51% accuracy.  These results indicate that the models are only slightly better than randomly guessing, so should not be relied upon as a prediction tool. 
